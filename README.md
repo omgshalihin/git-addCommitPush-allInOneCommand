@@ -1,6 +1,5 @@
-# Makefile git add commit push github All in One command
-### How to run ALL in one command from within a Makefile?
-Put all git add, git commit, git push command in a makefile, In just 3 simple steps as follow:
+# Git All-In-One Command
+Put all git add, git commit, git push command in a makefile.
 
 - within the project's root directory
 ```
@@ -17,3 +16,5 @@ git:
 ```
 make git m="<your message>"
 ```
+
+### Now, you don't have to manually type them individually. Try it! 
